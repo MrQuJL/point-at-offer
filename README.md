@@ -16,6 +16,6 @@
 
 8. 2018-03-17 [数据流中的中位数](https://github.com/MrQuJL/point-at-offer/blob/master/优化时间效率和空间效率/数据流中的中位数.java "数据流中的中位数")
 
-
+9. 2018-03-17 [最小的k个数](https://github.com/MrQuJL/point-at-offer/blob/master/优化时间效率和空间效率/最小的k个数.java "最小的k个数")
 
 
