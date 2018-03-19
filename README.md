@@ -22,7 +22,7 @@
 
 11. 2018-03-18 [把二叉树打印成多行](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/把二叉树打印成多行.java "把二叉树打印成多行")
 
-12. 2018-03-18 [矩阵中的路径](https://github.com/MrQuJL/point-at-offer/blob/master/数组/矩阵中的路径.java "矩阵中的路径")
+12. 2018-03-18 [矩阵中的路径](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/矩阵中的路径.java "矩阵中的路径")
 
 13. 2018-03-19 [按之字形顺序打印二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/按之字形顺序打印二叉树.java "按之字形顺序打印二叉树")
 
