@@ -26,6 +26,6 @@
 
 13. 2018-03-19 [按之字形顺序打印二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/按之字形顺序打印二叉树.java "按之字形顺序打印二叉树")
 
-
+14. 2018-03-19 [二叉树的深度](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/二叉树的深度.java "二叉树的深度")
 
 
