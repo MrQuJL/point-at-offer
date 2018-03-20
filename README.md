@@ -34,7 +34,6 @@
 
 17. 2018-03-20 [冒泡排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/冒泡排序.java "冒泡排序")
 
-18. 2018-03-20 [冒泡排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/冒泡排序.java "冒泡排序")
-
+18. 2018-03-20 [快速排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/快速排序.java "快速排序")
 
 
