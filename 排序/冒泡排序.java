@@ -3,7 +3,7 @@
  * 题目描述:请在30秒之内实现冒泡排序
  */
 public class Solution {
-	
+
 	public static void main(String[] args) {
 		int[] a = {8, 9, 7, 6, 5, 4, 3, 2, 1};
 		bubbleSort(a, false);
@@ -11,9 +11,18 @@ public class Solution {
 			System.out.println(i);
 		}
 	}
-	
+
 	/**
 	 * 冒泡排序
+	 * 
+	 * 特点：
+	 * 冒泡排序是一种稳定的排序
+	 * 时间复杂度为O(n2)
+	 * 空间复杂度为O(1)
+	 * 
+	 * 适用场景：
+	 * 数据规模较小，并且对稳定性有要求
+	 * 
 	 * @param array 待排序的数组
 	 * @param flag true为升序，false为降序
 	 */
