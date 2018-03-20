@@ -16,7 +16,8 @@ public class Solution {
 	 * 冒泡排序
 	 * 
 	 * 特点：
-	 * 冒泡排序是一种稳定的排序
+	 * 冒泡排序是一种交换排序
+	 * 冒泡排序是一种稳定(假设a，b相等，那么排序前a在b的前面，排序后a仍然在b的前面)的排序
 	 * 时间复杂度为O(n2)
 	 * 空间复杂度为O(1)
 	 * 
@@ -27,6 +28,11 @@ public class Solution {
 	 * @param flag true为升序，false为降序
 	 */
 	public static void bubbleSort (int[] array, boolean flag) {
+		// 合法性验证
+		if (array == null || array.length == 0) {
+			return;
+		}
+
 		for (int i = 0; i < array.length - 1; i++) {
 			for (int j = 0; j < array.length - i - 1; j++) {
 				if (flag && array[j] > array[j + 1]) {
