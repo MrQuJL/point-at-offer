@@ -31,3 +31,7 @@
 15. 2018-03-19 [字符串的排列](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/字符串的排列.java "字符串的排列")
 
 16. 2018-03-20 [删除链表中重复的节点](https://github.com/MrQuJL/point-at-offer/blob/master/链表/删除链表中重复的节点.java "删除链表中重复的节点")
+
+17. 2018-03-20 [冒泡排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/冒泡排序.java "冒泡排序")
+
+
