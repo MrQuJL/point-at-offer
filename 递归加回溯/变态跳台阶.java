@@ -15,7 +15,7 @@ public class Solution {
      * f(n) = 2 * f(n-1)
      *
      * 这里有一张非常直观的图：
-     * 
+     * https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/变态跳台阶.PNG
      * 运行时间：21ms
      */
     public int JumpFloorII(int target) {
