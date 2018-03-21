@@ -40,4 +40,13 @@
 
 20. 2018-03-21 [跳台阶](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/跳台阶.java "跳台阶")
 
+21. 2018-03-21 [变态跳台阶](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/变态跳台阶.java "变态跳台阶")
+
+
+
+
+
+
+
+
 
