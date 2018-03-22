@@ -9,7 +9,7 @@ public class Solution {
      * 思路一：
      * 类似冒泡排序，前偶后奇就交换
      */
-    public void reOrderArray(int[] array) {
+    public void reOrderArray1(int[] array) {
         // 合法性判断
         if (array == null || array.length == 0) {
             return;
@@ -24,11 +24,27 @@ public class Solution {
         }
     }
     
+    /**
+     * 思路二：
+     * 类似直接插入排序的思想
+     */
+    public void reOrderArray(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            if ((array[i] & 0x1) == 1) {
+                int temp = array[i];
+                int j;
+                for (j = i - 1; j >= 0 && (array[j] & 0x1) == 0; j--) {
+                    array[j + 1] = array[j];
+                }
+                array[j + 1] = temp;
+            }
+        }
+    }
+    
     public void swap(int[] array, int i, int j) {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
     }
-    
     
 }
