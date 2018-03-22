@@ -52,5 +52,5 @@
 
 26. 2018-03-22 [二进制中1的个数](https://github.com/MrQuJL/point-at-offer/blob/master/二进制与位运算/二进制中1的个数.java "二进制中1的个数")
 
-
+27. 2018-03-22 [调整数组顺序使奇数位于偶数前面](https://github.com/MrQuJL/point-at-offer/blob/master/数组/调整数组顺序使奇数位于偶数前面.java "调整数组顺序使奇数位于偶数前面")
 
