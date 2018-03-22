@@ -48,4 +48,9 @@
 
 24. 2018-03-21 [重建二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/重建二叉树.java "重建二叉树")
 
-25. 2018-03-15 [合并两个排序的链表](https://github.com/MrQuJL/point-at-offer/blob/master/链表/合并两个排序的链表.java "合并两个排序的链表")
+25. 2018-03-22 [合并两个排序的链表](https://github.com/MrQuJL/point-at-offer/blob/master/链表/合并两个排序的链表.java "合并两个排序的链表")
+
+26. 2018-03-22 [二进制中1的个数](https://github.com/MrQuJL/point-at-offer/blob/master/二进制与位运算/二进制中1的个数.java "二进制中1的个数")
+
+
+
