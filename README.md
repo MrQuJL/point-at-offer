@@ -54,3 +54,9 @@
 
 27. 2018-03-22 [调整数组顺序使奇数位于偶数前面](https://github.com/MrQuJL/point-at-offer/blob/master/数组/调整数组顺序使奇数位于偶数前面.java "调整数组顺序使奇数位于偶数前面")
 
+28. 2018-03-22 [直接插入排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/直接插入排序.java "直接插入排序")
+
+
+
+
+

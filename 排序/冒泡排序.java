@@ -1,8 +1,6 @@
-package com.lyu.shopping.test;
 
 /**
  * 题目名称：实现冒泡排序
- * 题目描述:请在30秒之内实现冒泡排序
  */
 public class Solution {
 
