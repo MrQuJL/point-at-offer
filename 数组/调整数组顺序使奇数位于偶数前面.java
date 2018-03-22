@@ -1,3 +1,4 @@
+
 /**
  * 题目名称：调整数组顺序使奇数位于偶数前面
  * 题目描述：输入一个整数数组，实现一个函数来调整该数组中数字的顺序
@@ -23,12 +24,12 @@ public class Solution {
             }
         }
     }
-    
+
     /**
      * 思路二：
      * 类似直接插入排序的思想
      */
-    public void reOrderArray(int[] array) {
+    public void reOrderArray2(int[] array) {
         for (int i = 1; i < array.length; i++) {
             if ((array[i] & 0x1) == 1) {
                 int temp = array[i];
@@ -40,7 +41,34 @@ public class Solution {
             }
         }
     }
+
+    /**
+     * 思路三：
+     * 类似快速排序的思想
+     */
+    public void reOrderArray3(int[] array) {
+        int size = array.length;
+        if(size == 0 || size == 1) return;
+        int p = -1;
+        int q = 0;
+        while(q < size) {
+            if ((array[q] & 1) != 0) {
+                p++;
+                int i = q;
+                int temp = array[i];
+                while(i > p) {
+                    array[i] = array[i-1];
+                    i--;
+                }
+                array[p] = temp;
+            }
+            q++;
+        }
+    }
     
+    /**
+     * 交换数组中的两个数
+     */
     public void swap(int[] array, int i, int j) {
         int temp = array[i];
         array[i] = array[j];
