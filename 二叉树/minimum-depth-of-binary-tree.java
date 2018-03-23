@@ -67,7 +67,7 @@ public class Solution {
             if (start == end) {
                 level++;
                 start = 0;
-                end = layerList.size();
+                end = queue.size();
                 layerList = new LinkedList<TreeNode>();
             }
         }
