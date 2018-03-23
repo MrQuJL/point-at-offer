@@ -64,9 +64,5 @@
 
 32. 2018-03-23 [binary-tree-postorder-traversal](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/binary-tree-postorder-traversal.java "binary-tree-postorder-traversal")
 
-
-
-
-
-
+33. 2018-03-24 [左旋转字符串](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/左旋转字符串.java "左旋转字符串")
 
