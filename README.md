@@ -62,6 +62,7 @@
 
 31. 2018-03-23 [minimum-depth-of-binary-tree](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/minimum-depth-of-binary-tree.java "minimum-depth-of-binary-tree")
 
+32. 2018-03-23 [binary-tree-postorder-traversal](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/binary-tree-postorder-traversal.java "binary-tree-postorder-traversal")
 
 
 
