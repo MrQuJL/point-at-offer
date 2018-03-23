@@ -29,6 +29,7 @@ public class Solution {
         }
         int l = run(root.left);
         int r = run(root.right);
+        // 当前节点要么有一个分支，要么是根节点
         if (l == 0 || r == 0) {
             return l + r + 1;
         }
@@ -46,7 +47,6 @@ public class Solution {
             return 0;
         }
         LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
-        LinkedList<TreeNode> layerList = new LinkedList<TreeNode>();
         queue.addFirst(root);
         int start = 0;
         int end = 1;
@@ -54,7 +54,6 @@ public class Solution {
         while (!queue.isEmpty()) {
             TreeNode temp = queue.removeLast();
             start++;
-            layerList.addFirst(temp);
             if (temp.left == null && temp.right == null) {
                 return level;
             }
@@ -68,7 +67,6 @@ public class Solution {
                 level++;
                 start = 0;
                 end = queue.size();
-                layerList = new LinkedList<TreeNode>();
             }
         }
         
