@@ -60,4 +60,4 @@
 
 30. 2018-03-23 [用两个栈实现一个队列](https://github.com/MrQuJL/point-at-offer/blob/master/栈和队列/用两个栈实现一个队列.java "用两个栈实现一个队列")
 
-
+31. 2018-03-23 [minimum-depth-of-binary-tree](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/minimum-depth-of-binary-tree.java "minimum-depth-of-binary-tree")
