@@ -1,5 +1,7 @@
 # 剑指 offer 经典编程题
 
+**如果大家有遇到过比较好的编程题，也可以 pull 过来，来者不拒^_^**
+
 1. 2018-03-12 [二维数组中的查找](https://github.com/MrQuJL/point-at-offer/blob/master/数组/二维数组中的查找.java "二维数组中的查找")
 
 2. 2018-03-13 [替换空格](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/替换空格.java "替换空格")
@@ -67,6 +69,9 @@
 33. 2018-03-24 [左旋转字符串](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/左旋转字符串.java "左旋转字符串")
 
 34. 2018-03-24 [旋转数组的最小数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/旋转数组的最小数字.java "旋转数组的最小数字")
+
+35. 2018-03-24 [数组中出现次数超过一半的数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中出现次数超过一半的数字.java "数组中出现次数超过一半的数字")
+
 
 
 
