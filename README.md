@@ -72,6 +72,6 @@
 
 35. 2018-03-24 [数组中出现次数超过一半的数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中出现次数超过一半的数字.java "数组中出现次数超过一半的数字")
 
-
+36. 2018-03-24 [孩子们的游戏（圆圈中最后剩下的数字）](https://github.com/MrQuJL/point-at-offer/blob/master/链表/孩子们的游戏（圆圈中最后剩下的数字）.java "孩子们的游戏（圆圈中最后剩下的数字）")
 
 
