@@ -66,3 +66,7 @@
 
 33. 2018-03-24 [左旋转字符串](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/左旋转字符串.java "左旋转字符串")
 
+34. 2018-03-24 [旋转数组的最小数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/旋转数组的最小数字.java "旋转数组的最小数字")
+
+
+
