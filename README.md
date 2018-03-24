@@ -74,5 +74,5 @@
 
 36. 2018-03-24 [孩子们的游戏（圆圈中最后剩下的数字）](https://github.com/MrQuJL/point-at-offer/blob/master/链表/孩子们的游戏（圆圈中最后剩下的数）.java "孩子们的游戏（圆圈中最后剩下的数字）")
 
-37. 2018-03-24 [机器人运动范围](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/机器人运动范围.java "机器人运动范围")
+37. 2018-03-24 [机器人的运动范围](https://github.com/MrQuJL/point-at-offer/blob/master/递归加回溯/机器人的运动范围.java "机器人的运动范围")
 
