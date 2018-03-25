@@ -84,7 +84,6 @@
 
 41. 2018-03-25 [树的子结构](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/树的子结构.java "树的子结构")
 
-
-
+42. 2018-03-25 [平衡二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/平衡二叉树.java "平衡二叉树")
 
 
