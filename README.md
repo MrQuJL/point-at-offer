@@ -78,6 +78,6 @@
 
 38. 2018-03-25 [堆排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/堆排序.java "堆排序")
 
-
+39. 2018-03-25 [和为S的两个数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/和为S的两个数字.java "和为S的两个数字")
 
 
