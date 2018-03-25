@@ -80,4 +80,12 @@
 
 39. 2018-03-25 [和为S的两个数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/和为S的两个数字.java "和为S的两个数字")
 
+40. 2018-03-25 [数值的整数次方](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数值的整数次方.java "数值的整数次方")
+
+
+
+
+
+
+
 
