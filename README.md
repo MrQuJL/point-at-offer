@@ -90,5 +90,5 @@
 
 44. 2018-03-26 [包含min函数的栈](https://github.com/MrQuJL/point-at-offer/blob/master/栈和队列/包含min函数的栈.java "包含min函数的栈")
 
-
+45. 2018-03-26 [丑数](https://github.com/MrQuJL/point-at-offer/blob/master/数组/丑数.java "丑数")
 
