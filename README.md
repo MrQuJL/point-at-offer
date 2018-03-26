@@ -86,4 +86,5 @@
 
 42. 2018-03-25 [平衡二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/平衡二叉树.java "平衡二叉树")
 
+43. 2018-03-26 [栈的压入、弹出序列](https://github.com/MrQuJL/point-at-offer/blob/master/栈和队列/栈的压入、弹出序列.java "栈的压入、弹出序列")
 
