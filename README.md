@@ -88,3 +88,7 @@
 
 43. 2018-03-26 [栈的压入、弹出序列](https://github.com/MrQuJL/point-at-offer/blob/master/栈和队列/栈的压入、弹出序列.java "栈的压入、弹出序列")
 
+44. 2018-03-26 [包含min函数的栈](https://github.com/MrQuJL/point-at-offer/blob/master/栈和队列/包含min函数的栈.java "包含min函数的栈")
+
+
+
