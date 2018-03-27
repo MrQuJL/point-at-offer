@@ -100,4 +100,5 @@
 
 49. 2018-03-27 [顺时针打印矩阵](https://github.com/MrQuJL/point-at-offer/blob/master/数组/顺时针打印矩阵.java "顺时针打印矩阵")
 
+50. 2018-03-27 [二叉搜索树的后序遍历序列](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/二叉搜索树的后序遍历序列.java "二叉搜索树的后序遍历序列")
 
