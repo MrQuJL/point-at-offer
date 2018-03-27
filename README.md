@@ -102,3 +102,9 @@
 
 50. 2018-03-27 [二叉搜索树的后序遍历序列](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/二叉搜索树的后序遍历序列.java "二叉搜索树的后序遍历序列")
 
+51. 2018-03-27 [二叉树中和为某一值的路径](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/二叉树中和为某一值的路径.java "二叉树中和为某一值的路径")
+
+
+
+
+

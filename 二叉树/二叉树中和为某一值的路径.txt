@@ -1,0 +1,45 @@
+import java.util.ArrayList;
+/**
+public class TreeNode {
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
+    public TreeNode(int val) {
+        this.val = val;
+    }
+}
+*/
+
+/**
+ * 题目名称：二叉树中和为某一值的路径
+ * 题目描述：输入一颗二叉树和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。
+ * 路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。
+ */
+public class Solution {
+    
+    ArrayList<ArrayList<Integer>> listAll = new ArrayList<ArrayList<Integer>>();
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    
+    /**
+     * 思路：
+     * 1.把target减去当前节点的值，如果结果为0，并且此节点还是叶子节点，就找到了一条和为target的路径
+     * 2.结果不为0或者不是叶子节点，则继续去左右子树递归的查找
+     * 3.每次递归结束后要减去最后一个添加的数来进行回溯
+     */
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+        if (root == null) {
+            return listAll;
+        }
+        list.add(root.val);
+        target -= root.val;
+        // 如果target减去该节点的值后为0并且还是叶子节点
+        if (target == 0 && root.left == null && root.right == null) {
+            listAll.add(new ArrayList<Integer>(list));
+        }
+        FindPath(root.left, target);
+        FindPath(root.right, target);
+        // 回溯，减去最后一个添加的数
+        list.remove(list.size()-1);
+        return listAll;
+    }
+}
