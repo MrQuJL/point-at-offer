@@ -112,6 +112,7 @@
 
 55. 2018-03-28 [基数排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/基数排序.java "基数排序")
 
+56. 2018-03-28 [构建乘积数组](https://github.com/MrQuJL/point-at-offer/blob/master/数组/构建乘积数组.java "构建乘积数组")
 
 
 
