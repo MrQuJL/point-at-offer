@@ -108,4 +108,5 @@
 
 53. 2018-03-28 [二分法插入排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/二分法插入排序.java "二分法插入排序")
 
+54. 2018-03-28 [希尔排序](https://github.com/MrQuJL/point-at-offer/blob/master/排序/希尔排序.java "希尔排序")
 
