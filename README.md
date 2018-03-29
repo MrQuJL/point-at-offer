@@ -118,6 +118,8 @@
 
 58. 2018-03-29 [对称的二叉树](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/对称的二叉树.java "对称的二叉树")
 
+59. 2018-03-29 [数组中的逆序对](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中的逆序对.java "数组中的逆序对")
+
 
 
 
