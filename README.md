@@ -122,8 +122,7 @@
 
 60. 2018-03-29 [数字在排序数组中出现的次数](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数字在排序数组中出现的次数.java "数字在排序数组中出现的次数")
 
-
-
+61. 2018-03-29 [求1+2+3+...+n](https://github.com/MrQuJL/point-at-offer/blob/master/创新型思路/求1+2+3+...+n.java "求1+2+3+...+n")
 
 
 
