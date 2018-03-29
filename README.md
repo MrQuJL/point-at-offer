@@ -120,6 +120,10 @@
 
 59. 2018-03-29 [数组中的逆序对](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中的逆序对.java "数组中的逆序对")
 
+60. 2018-03-29 [数字在排序数组中出现的次数](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数字在排序数组中出现的次数.java "数字在排序数组中出现的次数")
+
+
+
 
 
 
