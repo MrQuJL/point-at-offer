@@ -114,6 +114,7 @@
 
 56. 2018-03-28 [构建乘积数组](https://github.com/MrQuJL/point-at-offer/blob/master/数组/构建乘积数组.java "构建乘积数组")
 
+57. 2018-03-29 [翻转单词序列](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/翻转单词序列.java "翻转单词序列")
 
 
 
