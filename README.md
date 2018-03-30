@@ -124,5 +124,12 @@
 
 61. 2018-03-29 [求1+2+3+...+n](https://github.com/MrQuJL/point-at-offer/blob/master/创新型思路/求1+2+3+...+n.java "求1+2+3+...+n")
 
+62. 2018-03-30 [数组中重复的数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中重复的数字.java "数组中重复的数字")
+
+63. 2018-03-30 [把数组排成最小的数](https://github.com/MrQuJL/point-at-offer/blob/master/创新型思路/把数组排成最小的数.java "把数组排成最小的数")
+
+
+
+
 
 
