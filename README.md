@@ -142,6 +142,7 @@
 
 70. 2018-03-31 [不用加减乘除做加法](https://github.com/MrQuJL/point-at-offer/blob/master/创新型思路/不用加减乘除做加法.java "不用加减乘除做加法")
 
+71. 2018-03-31 [扑克牌顺子](https://github.com/MrQuJL/point-at-offer/blob/master/数组/扑克牌顺子.java "扑克牌顺子")
 
 
 
