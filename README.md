@@ -136,5 +136,5 @@
 
 67. 2018-03-30 [整数中1出现的次数](https://github.com/MrQuJL/point-at-offer/blob/master/数组/整数中1出现的次数.java "整数中1出现的次数")
 
-
+68. 2018-03-31 [滑动窗口的最大值](https://github.com/MrQuJL/point-at-offer/blob/master/数组/滑动窗口的最大值.java "滑动窗口的最大值")
 
