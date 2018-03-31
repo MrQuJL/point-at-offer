@@ -140,6 +140,8 @@
 
 69. 2018-03-31 [二叉搜索树的第k个节点](https://github.com/MrQuJL/point-at-offer/blob/master/二叉树/二叉搜索树的第k个节点.java "二叉搜索树的第k个节点")
 
+70. 2018-03-31 [不用加减乘除做加法](https://github.com/MrQuJL/point-at-offer/blob/master/创新型思路/不用加减乘除做加法.java "不用加减乘除做加法")
+
 
 
 
