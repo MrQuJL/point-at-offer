@@ -12,7 +12,7 @@ public class Solution {
     public boolean isNumeric1(char[] str) {
         String string = String.valueOf(str);
         // 强大的正则表达式
-        return string.matches("[\\+-]?[0-9]*(\\.[0-9]*)?([eE][\\+-]?[0-9]+)?");
+        return string.matches("[+-]?[0-9]*(\\.[0-9]*)?([eE][+-]?[0-9]+)?");
     }
     
     /**
