@@ -144,6 +144,7 @@
 
 71. 2018-03-31 [扑克牌顺子](https://github.com/MrQuJL/point-at-offer/blob/master/数组/扑克牌顺子.java "扑克牌顺子")
 
+72. 2018-03-31 [和为S的连续正数序列](https://github.com/MrQuJL/point-at-offer/blob/master/数组/和为S的连续正数序列.java "和为S的连续正数序列")
 
 
 
