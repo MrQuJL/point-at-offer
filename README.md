@@ -148,7 +148,7 @@
 
 74. 2018-04-02 [数组中只出现一次的数字](https://github.com/MrQuJL/point-at-offer/blob/master/数组/数组中只出现一次的数字.java "数组中只出现一次的数字")
 
-
+75. 2018-04-02 [字符流中第一个不重复的字符](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/字符流中第一个不重复的字符.java "字符流中第一个不重复的字符")
 
 
 
