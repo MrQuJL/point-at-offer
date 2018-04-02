@@ -1,7 +1,5 @@
 # 剑指 offer 经典编程题
 
-**如果大家有遇到过比较好的编程题，也可以 pull 过来，来者不拒^_^**
-
 1. 2018-03-12 [二维数组中的查找](https://github.com/MrQuJL/point-at-offer/blob/master/数组/二维数组中的查找.java "二维数组中的查找")
 
 2. 2018-03-13 [替换空格](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/替换空格.java "替换空格")
@@ -145,6 +143,8 @@
 71. 2018-03-31 [扑克牌顺子](https://github.com/MrQuJL/point-at-offer/blob/master/数组/扑克牌顺子.java "扑克牌顺子")
 
 72. 2018-03-31 [和为S的连续正数序列](https://github.com/MrQuJL/point-at-offer/blob/master/数组/和为S的连续正数序列.java "和为S的连续正数序列")
+
+73. 2018-04-02 [连续子数组的最大和](https://github.com/MrQuJL/point-at-offer/blob/master/数组/连续子数组的最大和.java "连续子数组的最大和")
 
 
 
