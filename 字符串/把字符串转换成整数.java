@@ -10,7 +10,7 @@
 public class Solution {
     /**
      * 思路：
-     * 调用Java库函数
+     * 调用Java库函数，又偷懒了
      */
     public int StrToInt(String str) {
         int resultNum = 0;
