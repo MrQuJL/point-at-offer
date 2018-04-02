@@ -150,6 +150,8 @@
 
 75. 2018-04-02 [字符流中第一个不重复的字符](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/字符流中第一个不重复的字符.java "字符流中第一个不重复的字符")
 
+76. 2018-04-02 [把字符串转换成整数](https://github.com/MrQuJL/point-at-offer/blob/master/字符串/把字符串转换成整数.java "把字符串转换成整数")
+
 
 
 
