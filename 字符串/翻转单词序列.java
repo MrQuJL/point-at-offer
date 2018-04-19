@@ -13,19 +13,30 @@ public class Solution {
      * 用空格来进行拆分，把拆分后得到的字符串逆序拼接
      */
     public String ReverseSentence(String str) {
-        if (str.trim().equals("")) { // 处理全是空格的情况
+        if (str == null || str.trim().equals("")) { // 处理全是空格的情况
             return str;
         }
-        String[] s = str.split(" ");
-        StringBuffer buffer = new StringBuffer();
-        for (int i = s.length - 1; i >= 0; i--) {
-            if (i != 0) {
-                buffer.append(s[i]).append(" ");
-            } else {
-                buffer.append(s[i]);
+        char[] ch = str.toCharArray();
+        reverseStr(ch, 0, ch.length - 1);
+        int last = -1;
+        for (int i = 0; i < ch.length; i++) {
+            int next = 0;
+            if (ch[i] == ' ') {
+                next = i;
+                reverseStr(ch, last + 1, next - 1);
+                last = next;
             }
         }
-        return buffer.toString();
+        // 最后一个单词单独翻转
+        reverseStr(ch, last + 1, ch.length - 1);
+        return new String(ch);
     }
     
+    public void reverseStr(char[] ch, int start, int end) {
+        while (start < end) {
+            char temp = ch[start];
+            ch[start++] = ch[end];
+            ch[end--] = temp;
+        }
+    }
 }
