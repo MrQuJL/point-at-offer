@@ -6,7 +6,6 @@
  * 是不是很简单？OK，搞定它！
  */
 public class Solution {
-
     /**
      * 思路：
      * 1.先翻转前半部分
@@ -15,7 +14,7 @@ public class Solution {
      *
      * 考点：不使用库对字符串进行灵活的翻转
      */
-    public String LeftRotateString(String str,int n) {
+    public String LeftRotateString1(String str,int n) {
         if (str == null || str.length() == 0 || n < 0 || n > str.length()) {
             return str;
         }
@@ -37,6 +36,17 @@ public class Solution {
             start++;
             end--;
         }
+    }
+    
+    /**
+     * 思路二：
+     * 对原字符串拼接一份拷贝截取[n, len + n)个字符即可
+     */
+    public String LeftRotateString(String str,int n) {
+        if (str == null || str.length() == 0 || n < 0 || n > str.length()) {
+            return str;
+        }
+        return (str + str).substring(n, str.length() + n);
     }
     
 }
