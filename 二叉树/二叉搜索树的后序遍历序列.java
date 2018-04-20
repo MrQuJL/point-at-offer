@@ -13,7 +13,7 @@ public class Solution {
      * 3.如果右子树中有小于根节点的值返回false
      * 4.递归的判断每个左右子树是否是BST
      */
-    public boolean VerifySquenceOfBST(int [] sequence) {
+    public boolean VerifySquenceOfBST1(int [] sequence) {
         // 合法性判断
         if (sequence == null || sequence.length == 0) {
             return false;
@@ -56,4 +56,27 @@ public class Solution {
         
         return left && right;
     }
+    
+    /**
+     * 思路2：
+     * 非递归解法，利用左子树的所有值都比根节点小
+     * 右子树的所有值都比根节点大的特性
+     */
+    public boolean VerifySquenceOfBST(int [] sequence) {
+        if (sequence == null || sequence.length == 0) {
+            return false;
+        }
+        int size = sequence.length;
+        int i = 0;
+        while (--size != 0) {
+            while (sequence[i] < sequence[size])i++;
+            while (sequence[i] > sequence[size])i++;
+            if (i < size) {
+                return false;
+            }
+            i = 0;
+        }
+        return true;
+    }
+    
 }
