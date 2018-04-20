@@ -21,10 +21,8 @@ public class Solution {
      * 2.以此节点为根基，判断B树的每个节点是否与A树中对应的节点相同
      * 3.相同则返回true
      * 4.不同则继续先序遍历
-	 *
-	 * 考察：二叉树的先序遍历序列
      */
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+    public boolean HasSubtree1(TreeNode root1,TreeNode root2) {
         // 空树不是任意一个树的子树，只要有一个为空，就返回false
         if (root1 == null || root2 == null) return false;
         
@@ -33,7 +31,7 @@ public class Solution {
         // 左右子树中只要有一边的结构与B数相同就返回true
         return HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
     }
-
+    
     /**
      * 以root为根节点的树是否包含subTree
      */
@@ -48,4 +46,41 @@ public class Solution {
         }
         return false;
     }
+    
+    /**
+     * 思路二：
+     * 分别将两颗二叉树序列化，去掉第二颗二叉树末尾的叶子节点标记
+     * 在第一课序列化后的二叉树中判断是否存在第二颗二叉树即可
+     */
+    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+        if (root1 == null || root2 == null) {
+            return false;
+        }
+        
+        // 1.序列化两颗二叉树
+        StringBuffer buffer = new StringBuffer();
+        String strA = serialTree(root1, buffer);
+        buffer.delete(0, buffer.length());
+        
+        String strB = serialTree(root2, buffer);
+        buffer.delete(0, buffer.length());
+        
+        while (strB.endsWith("#!")) {
+            strB = strB.substring(0, strB.length() - 2);
+        }
+        // 2.从序列化的二叉树A中查找是否包含B的一部分
+        return strA.contains(strB);
+    }
+    
+    public String serialTree(TreeNode root, StringBuffer buffer) {
+        if (root == null) {
+            buffer.append("#!");
+            return buffer.toString();
+        }
+        buffer.append(root.val).append("!");
+        serialTree(root.left, buffer);
+        serialTree(root.right, buffer);
+        return buffer.toString();
+    }
+    
 }
