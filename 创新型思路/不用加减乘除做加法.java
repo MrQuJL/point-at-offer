@@ -13,8 +13,8 @@ public class Solution {
     public int Add(int num1,int num2) {
         int sum, carry;
         while (num2 != 0) {
-            sum = num1 ^ num2;
-            carry = (num1 & num2) << 1;
+            sum = num1 ^ num2; // 异或相当于每一位相加，而不考虑进位
+            carry = (num1 & num2) << 1; // 两个数相与，并左移一位，相当于求得进位
             num1 = sum;
             num2 = carry; // 为0表示没有进位了，返回num1即可
         }
